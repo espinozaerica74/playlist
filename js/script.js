@@ -1,5 +1,10 @@
-let songs =["boo'd up"]
-
+//let songs =["boo'd up"]
+let song = {
+  title: "boo'd up",
+  artist: 'ella mai',
+  length: '300'
+  link: ''
+}
 songs.forEach(function(song){
 $('.songs').append(song);
 })
